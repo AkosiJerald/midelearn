@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediLearn</title>
+    <link rel="stylesheet" href="index.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b660804b78.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md sticky-top navbar-light bg-light " id="navbar-example2">
+        <div class="container">
+            <!--title-->
+            <a href="" class="navbar-brand">
+                <span class="fw-bold text-dark h2" >
+                    MediLearn Market
+                </span>
+            </a>
+            <!--toggle when resize and drop down-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <!--creat nav-->
+            <div class="collapse navbar-collapse justify-content-end align-center " id="main-nav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a href="#scrollspyHome" class="nav-link text-dark">Home</a>
+                    </li>
+
+                    <!--dropdown of products-->
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Products
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#scrollspyPopular">Popular</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyVitamins">Vitamins</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyPainkiller">Painkiller</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyAntibiotics">Antibiotics</a></li>
+                        </ul>
+                      </div>
+                    
+                    <li class="nav-item">
+                        <a href="#scrollspyContact" class="nav-link text-dark link">Contact</a>
+                    </li>
+                    <!--when in lg size this will appear-->
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a href="" class="btn btn-primary">Cart</a>
+                    </li>
+                    <!--when in md it appear-->
+                    <li class="nav-item d-md-none ">
+                        <a href="" class="nav-link text-dark">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Header-->
+    <header class="header mt-2" id="scrollspyHome">
+        <div class="container">
+            <div class="pt-5">
+                <h1 class="head-text">Empowering <br> medical <br>Education<br> and Supply Solution</h1>
+            </div>
+            
+        </div>
+    </header>
+
+    <!--Sec1-->
+    <div id="scrollspyPopular">
+        <div class="mt-3 p-4 mx-auto product">
+            <div class="text-start ms-4">
+                <p class="fw-bold text-dark h2">Product & Supply</p>
+            </div>
+        
+        <!--Popular sec-->
+        
+            <div class="box-shadow">
+                <h4 class="text-center">Popular</h4>
+            </div>
+
+            <div class="product-container">
+                <!--popular1-->
+                <div class="container">
+                    <img src="./med/clindamycin.png" alt="">   
+                    <p class="fw-bold">Clindamycin</p>
+                    <p>
+                        <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#popular1" aria-controls="popular1">
+                          more info
+                        </button>
+                      </p>
+                        <div class="collapse collapse-horizontal  " id="popular1">
+                          <div class="card card-body border border-dark" style="width:100%;">
+                            a medication used for the treatment of numerous infections, including but not limited to septicemia, 
+                            intra-abdominal infections, lower respiratory infections, gynecological infections, bone and joint infections,
+                             and skin and skin structure infections.
+                             <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                          </div>
+                        </div>              
+                </div>
+                <!--popular2-->
+                <div class="container">
+                    <img src="./med/amoclav.jpg" alt="">   
+                    <p class="fw-bold">Amoclav</p>
+                    <p>
+                        <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#popular2" aria-controls="popular2">
+                          more info
+                        </button>
+                      </p>
+                        <div class="collapse collapse-horizontal  " id="popular2">
+                          <div class="card card-body border border-dark" style="width:100%;">
+                            used in adults and children to treat the following infections: middle ear and sinus infections 
+                            <br>• respiratory tract infections <br>• urinary tract infections <br>• 
+                            skin and soft tissue infections including dental infections 
+                            <br>• bone and joint infections
+                            <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                          </div>
+                        </div>                
+                </div>
+                <!--popular3-->
+                <div class="container">
+                    <img src="./med/amoxicillin.jpg" alt="">   
+                    <p class="fw-bold">Amoxicillin</p>
+                    <p>
+                        <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#popular3" aria-controls="popular3">
+                          more info
+                        </button>
+                      </p>
+                        <div class="collapse collapse-horizontal  " id="popular3">
+                          <div class="card card-body border border-dark" style="width:100%;">
+                            Treat bacterial infections, such as chest infections (including pneumonia) and dental abscesses.
+                             It can also be used together with other antibiotics and medicines to treat stomach ulcers.
+                              It's often prescribed for children, to treat ear infections and chest infections.
+                            <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                          </div>
+                        </div>                 
+                </div>
+                <!--popular4-->
+                <div class="container">
+                    <img src="./med/ciprofloxacin.jpg" alt="">   
+                    <p class="fw-bold">Ciprofloxacin</p>
+                    <p>
+                        <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#popular4" aria-controls="popular4">
+                          more info
+                        </button>
+                      </p>
+                        <div class="collapse collapse-horizontal  " id="popular4">
+                          <div class="card card-body border border-dark" style="width:100%;">
+                            This medication is used to treat a variety of bacterial infections. Ciprofloxacin belongs to a class of drugs called quinolone antibiotics.
+                             It works by stopping the growth of bacteria.This antibiotic treats only bacterial infections. 
+                             It will not work for virus infections (such as common cold, flu). 
+                             Using any antibiotic when it is not needed can cause it to not work for future infections.
+                            <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                          </div>
+                        </div>                 
+                </div>
+                <!--popular5-->
+                <div class="container">
+                    <img src="./med/paracetamol.jpg" alt="">   
+                    <p class="fw-bold">Paracetamol</p>
+                    <p>
+                        <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#popular5" aria-controls="popular5">
+                          more info
+                        </button>
+                      </p>
+                        <div class="collapse collapse-horizontal  " id="popular5">
+                          <div class="card card-body border border-dark" style="width:100%;">
+                            Paracetamol is a medicine used for mild to moderate pain. It can be bought over the counter in pharmacies, supermarkets and other shops.Paracetamol has been in use for more than 70 years. The way it works to reduce pain and fever is not fully understood.Paracetamol begins to ease pain and lower a high temperature about 30 minutes after a dose is taken. Its effects usually last for about 4 to 6 hours.
+                            <p>
+                                <button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                          </div>
+                        </div>                 
+                </div>
+        
+            </div>
+        </div>
+    </div>
+        <!--Vitamins-->
+        <div id="scrollspyVitamins">
+            <!--vitamins for kids-->
+            <div class="mt-2 p-4 mx-auto product2">
+                    <div class=" box-shadow">
+                        <h4 class="text-center">Vitamins<sup style="font-size: 15px; font-family: cursive;">kids</sup></h4>
+                    </div>         
+            <div class="product-container">
+                <!--Vitamins1-->
+                <div class="container">
+                    <img src="./med/CLUSIVOL_SYRUP.jpg" alt="">   
+
+                    <div style="line-height: 5px;">
+                        <p class="fw-bold">CLUSIVOL SYRUP</p>
+                        <p> ₱270.00/250mL</p>
+                    </div>
+                    <p>
+                        <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Vitamins1" aria-controls="Vitamins1">
+                            more info
+                        </button>
+                    </p>
+                        
+                    <div class="collapse collapse-horizontal  " id="Vitamins1">
+                        <div class="card card-body border border-dark" style="width:100%;">
+                            Description:<br>
+                            Children’s Clusivol is for kids aged 1 to 13 years old to help boost their immunity. Contains 20 vitamins and minerals to help ensure normal growth and development.
+                            <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                            <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button><p>
+                        </div>
+                    </div>              
+                </div>
+                        <!--Vitamins2-->
+                <div class="container">
+                    <img src="./med/APPEBON.jpg" alt="">   
+                    <div style="line-height: 5px;">
+                        <p class="fw-bold">APPEBON</p>
+                        <p>₱279.00/60ml  </p>
+                    </div>
+                    <p>
+                        <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Vitamins2" aria-controls="Vitamins2">
+                            more info
+                        </button>
+                    </p>
+                    <div class="collapse collapse-horizontal  " id="Vitamins2">
+                            <div class="card card-body border border-dark" style="width:100%;">
+                                Appebon Kid contains Lysine, 100% RDA of  both Vitamin B Complex and Iron which are clinically proven to help children gain a healthy appetite, which is the foundation for the child’s overall health and energy.
+                                <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                            </div>
+                    </div>                 
+                </div>
+                        <!--Vitamins3-->
+                <div class="container">
+                    <img src="./med/ENERVON_SYRUP.jpg" alt="">   
+                    <div style="line-height: 5px;">
+                        <p class="fw-bold">ENERVON SYRUP</p>
+                        <p>₱260.25/120ml</p>
+                    </div>
+                    <p>
+                        <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Vitamins3" aria-controls="Vitamins3">
+                            more info
+                        </button>
+                    </p>
+                    <div class="collapse collapse-horizontal  " id="Vitamins3">
+                        <div class="card card-body border border-dark" style="width:100%;">
+                            Enervon Syrup is trusted children's multivitamins that contains essential nutrients Vitamins A, B Complex, C and D for extra energy and strong immunity to ensure that children stay active, lively and free from sickness everyday.
+
+                            <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                            <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                        </div>
+                    </div>                 
+                </div>
+                        <!--Vitamins4-->
+                <div class="container">
+                    <img src="./med/CLUSIVOL_SYRUP.jpg" alt="">   
+                    
+                    <div style="line-height: 5px;">
+                        <p class="fw-bold">CLUSIVOL SYRUP</p>
+                        <p>₱279.00/250ml  </p>
+                    </div>
+                    <p>
+                        <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Vitamins4" aria-controls="Vitamins4">
+                        more info
+                        </button>
+                    </p>
+                    <div class="collapse collapse-horizontal  " id="Vitamins4">
+                        <div class="card card-body border border-dark" style="width:100%;">
+                            Children’s Clusivol is for kids aged 1 to 13 years old to help boost their immunity. Contains 20 vitamins and minerals to help ensure normal growth and development.
+                            <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                            <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                        </div>
+                    </div>                 
+                </div>
+                        <!--Vitamins5-->
+                <div class="container">
+                    <img src="./med/TIKITIKI.jpg" alt="">   
+                    <div style="line-height: 5px;">
+                        <p class="fw-bold">Tiki-Tiki</p>
+                        <p>₱150.00/120ml  </p>
+                    </div>
+                    <p>
+                        <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Vitamins5"aria-controls="Vitamins5">more info
+                        </button>
+                    </p>
+                    <div class="collapse collapse-horizontal  " id="Vitamins5">
+                        <div class="card card-body border border-dark" style="width:100%;">
+                            contain Vitamins A, B complex, C, D, and E which are important nutrients to promote healthy appetite and good health from birth with Tiki-Tiki - Drops for babies 0-24 months and Tiki-Tiki - Syrup for children 2 years and up.
+                            <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                            <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                        </div>
+                    </div>                 
+                </div>  
+            </div>
+            </div>
+            <!--vitamins for Adults-->
+            <div class="mt-2 p-4 mx-auto product2">
+                <div class=" box-shadow">
+                    <h4 class="text-center">Vitamins<sup style="font-size: 15px; font-family: cursive;">Adults</sup></h4>
+                </div>       
+        <div class="product-container">
+            <!--Vitamins1-->
+            <div class="container">
+                <img src="./med/CENTRUM.jpg" alt="">   
+
+                <div style="line-height: 5px;">
+                    <p class="fw-bold">Centrum</p>
+                    <p> ₱292.00 (30 TABLETS)</p>
+                </div>
+                <p>
+                    <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Vitamins1adult" aria-controls="Vitamins1adult">
+                        more info
+                    </button>
+                </p>
+                    
+                <div class="collapse collapse-horizontal  " id="Vitamins1adult">
+                    <div class="card card-body border border-dark" style="width:100%;">
+                        The vitamins in Centrum help support normal immune function, healthy eyes, bone health, energy production, and muscle health245. Centrum is also non-GMO, gluten-free, and sugar-free.
+                        <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                        <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button><p>
+                    </div>
+                </div>              
+            </div>
+                    <!--Vitamins2-->
+            <div class="container">
+                <img src="./med/CLUSIVOL.jpg" alt="">   
+                <div style="line-height: 5px;">
+                    <p class="fw-bold">Clusivol</p>
+                    <p>₱700.00 per box </p>
+                </div>
+                <p>
+                    <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Vitamins2adult" aria-controls="Vitamins2adult">
+                        more info
+                    </button>
+                </p>
+                <div class="collapse collapse-horizontal  " id="Vitamins2adult">
+                        <div class="card card-body border border-dark" style="width:100%;">
+                            Clusivol multivitamins are used to prevent or treat vitamin deficiency due to certain illnesses, poor diet, or during pregnancy, Clusivol offers products that boost immunity and energy, allowing you to make the most out of your days.<p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                            <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                        </div>
+                </div>                 
+            </div>
+                    <!--Vitamins3-->
+            <div class="container">
+                <img src="./med/CONZACE.jpg" alt="">   
+                <div style="line-height: 5px;">
+                    <p class="fw-bold">Conzace</p>
+                    <p>₱1,250.00 per box</p>
+                </div>
+                <p>
+                    <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Vitamins3adult" aria-controls="Vitamins3adult">
+                        more info
+                    </button>
+                </p>
+                <div class="collapse collapse-horizontal  " id="Vitamins3adult">
+                    <div class="card card-body border border-dark" style="width:100%;">
+                        ConZace is a nutritional supplement for adults1. It is a multivitamin and mineral supplement that contains the highest levels of Zinc, Vitamins A, C, and E23.
+                        <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                        <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                    </div>
+                </div>                 
+            </div>
+                    <!--Vitamins4-->
+            <div class="container">
+                <img src="./med/ENERVON.jpg" alt="">   
+                
+                <div style="line-height: 5px;">
+                    <p class="fw-bold">Enervon</p>
+                    <p>₱199.00 (30 TABLETS)</p>
+                </div>
+                <p>
+                    <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Vitamins4adult" aria-controls="Vitamins4adult">
+                    more info
+                    </button>
+                </p>
+                <div class="collapse collapse-horizontal  " id="Vitamins4adult">
+                    <div class="card card-body border border-dark" style="width:100%;">
+                        Enervon is a nutritional supplement that contains vitamin-B complex and vitamin C12. It works with food to provide the synergistic benefits of B-vitamins (namely B1, B2, B6, B12) and Vitamin C to the body
+                        <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                        <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                    </div>
+                </div>                 
+            </div>
+                    <!--Vitamins5-->
+            <div class="container">
+                <img src="./med/STRESSTABS.jpg" alt="">   
+                <div style="line-height: 5px;">
+                    <p class="fw-bold">Stresstabs</p>
+                    <p>₱1,079.00/100 tablets  </p>
+                </div>
+                <p>
+                    <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Vitamins5adult"aria-controls="Vitamins5adult">more info
+                    </button>
+                </p>
+                <div class="collapse collapse-horizontal  " id="Vitamins5adult">
+                    <div class="card card-body border border-dark" style="width:100%;">
+                        Stresstabs is a vitamin and mineral supplement that helps to replenish nutrients lost during periods of stress. It is a high-potency B-complex vitamin formula that works by providing extra vitamins and minerals to the body when you do not get enough from your diet.
+                        <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                        <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                    </div>
+                </div>                 
+            </div>  
+        </div>
+        </div>
+        </div>
+        <!--Painkiller-->
+        <div id="scrollspyPainkiller">
+            <div class="mt-3 p-4 mx-auto product2">
+                <div class=" box-shadow">
+                    <h4 class="text-center">Painkiller</h4>
+                </div>
+                <div class="product-container">
+                    <!--Painkiller1-->
+                    <div class="container">
+                        <img src="./med/hydrocodone.jpg" alt="">   
+
+                        <div style="line-height: 5px;">
+                            <p class="fw-bold">Hydrocodone</p>
+                            <p>₱1,000.00/60 capsules  </p>
+                        </div>    
+                        <p>
+                            <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse"data-bs-target="#Painkiller1" aria-controls="Painkiller1">more info
+                            </button>
+                        </p>
+                        <div class="collapse collapse-horizontal  " id="Painkiller1">
+                            <div class="card card-body border border-dark" style="width:100%;">
+                                Hydrocodoneis an opioid pain medication. Zohydro ER and Hysingla ER are extended-release forms of hydrocodone that are used for around-the-clock treatment of severe pain. Extended-release hydrocodone is not for use on an as-needed basis for pain
+                                <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                            </div>
+                        </div>              
+                    </div>
+                <!--Painkiller2-->
+                    <div class="container">
+                        <img src="./med/ibuprofen.jpg" alt="">   
+
+                        <div style="line-height: 5px;">
+                            <p class="fw-bold">Ibuprofen</p>
+                            <p>₱ 1,905.00/300 tablets  </p>
+                      </div>
+                        <p>
+                            <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Painkiller2" aria-controls="Painkiller2">more info
+                            </button>
+                        </p>
+                        <div class="collapse collapse-horizontal  " id="Painkiller2">
+                            <div class="card card-body border border-dark" style="width:100%;">
+                                Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) used to treat mild to moderate pain, and helps to relieve symptoms of arthritis (osteoarthritis, rheumatoid arthritis, or juvenile arthritis), such as inflammation, swelling, stiffness, and joint pain. This medicine does not cure arthritis and will help you only as long as you continue to take it
+                                <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                            </div>
+                        </div>                 
+                    </div>
+
+                <!--Painkiller3-->
+                    <div class="container">
+                        <img src="./med/oxycodone.jpg" alt="">   
+
+                        <div style="line-height: 5px;">
+                            <p class="fw-bold">Oxycodone</p>
+                            <p>₱152.11</p>
+                      </div>
+                        <p>
+                            <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Painkiller3" aria-controls="Painkiller3">more info
+                            </button>
+                        </p>
+                        <div class="collapse collapse-horizontal  " id="Painkiller3">
+                            <div class="card card-body border border-dark" style="width:100%;">
+                                Oxycodone is used to relieve pain severe enough to require opioid treatment and when other pain medicines did not work well enough or cannot be tolerated. It belongs to the group of medicines called narcotic analgesics (pain medicines). Oxycodone acts on the central nervous system (CNS) to relieve pain.
+                                <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                            </div>
+                        </div>                 
+                    </div>
+
+                <!--Painkiller4-->
+                <div class="container">
+                    <img src="./med/Paracetamol.png" alt="">   
+                    <div style="line-height: 5px;">
+                        <p class="fw-bold">Paracetamol</p>
+                        <p>₱48.00/10 tablets  </p>
+                    </div> 
+                    <p>
+                        <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Painkiller4" aria-controls="Painkiller4">
+                          more info
+                        </button>
+                    </p>
+                    <div class="collapse collapse-horizontal  " id="Painkiller4">
+                        <div class="card card-body border border-dark" style="width:100%;">
+                            Paracetamol (Panadol, Calpol, Alvedon) is an analgesic and antipyretic drug that is used to temporarily relieve mild-to-moderate pain and fever. It is commonly included as an ingredient in cold and flu medications and is also used on its own.
+
+                            <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                            <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                        </div>
+                    </div>                 
+                </div>
+                <!--Painkiller5-->
+                <div class="container">
+                    <img src="./med/Tylenol.jpg" alt="">   
+                    <div style="line-height: 5px;">
+                        <p class="fw-bold">Tylenol</p>
+                        <p>₱588.00</p>
+                     </div> 
+                    <p>
+                        <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Painkiller5" aria-controls="Painkiller5">more info
+                        </button>
+                    </p>
+                        <div class="collapse collapse-horizontal  " id="Painkiller5">
+                            <div class="card card-body border border-dark" style="width:100%;">
+                                Tylenol is a pain reliever and a fever reducer. Tylenol is used to reduce fever and relieve minor pain caused by conditions such as colds or flu, headache, muscle aches, arthritis, menstrual cramps and fevers
+
+                                <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                            </div>
+                        </div>                 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!--Antibiotics-->
+        <div id="scrollspyAntibiotics">
+            <div class="mt-3 p-4 mx-auto product2">
+                <div class="box-shadow">
+                    <h4 class="text-center">Antibiotics</h4>
+                </div>
+
+            <div class="overflow-x-scroll">
+                    <div class="product-container">
+                        <!--Antibiotics1-->
+                        <div class="container">
+                            <img src="./med/trimethoprim.jpg" alt="">   
+                            <div style="line-height: 5px;">
+                                <p class="fw-bold">Trimethoprim</p>
+                                <p>₱30.90</p>
+                            </div>
+                            <p>
+                                <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Antibiotics1"  aria-controls="Antibiotics1">more info
+                                </button>
+                            </p>
+                            <div class="collapse collapse-horizontal  " id="Antibiotics1">
+                                <div class="card card-body border border-dark" style="width:100%; line-height: 17px;">
+                                    Trimethoprim is an antibiotic used to treat bacterial infections. It works by stopping the growth of bacteria by preventing them from producing a substance called folate, which is necessary for DNA production.
+                                    <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                    <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                                </div>
+                            </div>             
+                        </div>
+                        <!--Antibiotics2-->
+                        
+                        <div class="container">
+                            <img src="./med/metronidazole.jpg" alt="">   
+                            <div style="line-height: 5px;">
+                                <p class="fw-bold">Metronidazole</p>
+                                <p>₱47.00</p>
+                            </div>
+                            <p>
+                                <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Antibiotics2" aria-expanded="false" aria-controls="Antibiotics2">more info
+                                </button>
+                            </p>
+                            <div class="collapse collapse-horizontal  " id="Antibiotics2">
+                                <div class="card card-body border border-dark" style="width:100%">
+                                    Metronidazole is an antibiotic that fights bacteria. It is in a class of medications called nitroimidazole antimicrobials. It works by stopping the growth of bacteria and parasites. Metronidazole is used to treat bacterial infections of the vagina, stomach or intestines, liver, skin, joints, brain, heart, and respiratory tract. It is also used to treat rosacea, a skin condition
+
+                                    <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                    <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                                </div>
+                            </div>                 
+                        </div>
+
+                        <!--Antibiotics3-->
+                        <div class="container">
+                            <img src="./med/clindamycin.png" alt="">   
+                            <div style="line-height: 5px;">
+                                <p class="fw-bold">Clindamycin</p>
+                                <p>₱37.00</p>
+                            </div>
+                            <p>
+                                <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Antibiotics3" aria-controls="Antibiotics3">more info
+                                </button>
+                            </p>
+                            <div class="collapse collapse-horizontal  " id="Antibiotics3">
+                                <div class="card card-body border border-dark" style="width:100%;">
+                                    Clindamycin is an antibiotic that fights bacteria in the body. It is used to treat a wide variety of bacterial infections, such as middle ear infections, bone or joint infections, pelvic inflammatory disease, strep throat, pneumonia, and endocarditis. Clindamycin works by stopping the growth of bacteria. It does not work for virus infections
+
+                                    <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                    <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                                </div>
+                            </div>                
+                        </div>
+
+                        <!--Antibiotics4-->
+                        <div class="container">
+                            <img src="./med/Azithromycin.jpg" alt="">   
+                            <div style="line-height: 5px;">
+                                <p class="fw-bold">Azithromycin</p>
+                                <p>₱79.67</p>
+                            </div>
+                            <p>
+                                <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Antibiotics4" aria-controls="Antibiotics4">more info
+                                </button>
+                            </p>
+                            <div class="collapse collapse-horizontal  " id="Antibiotics4">
+                                <div class="card card-body border border-dark" style="width:100%;">
+                                    Azithromycin is an antibiotic medication used to treat many different types of bacterial infections, such as respiratory infections, skin infections, ear infections, eye infections, and sexually transmitted diseases. It is also used to prevent and treat a serious type of infection called mycobacteria or MAC4. Azithromycin works by stopping the growth of bacteria. It is generally safe to use while breastfeeding, but people with existing heart conditions should avoid this drug. Azithromycin will not work for viral infections such as the common cold or flu
+                                    <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                    <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                                </div>
+                            </div>                 
+                        </div>
+                        <!--Antibiotics5-->
+                        <div class="container">
+                            
+                            <img src="./med/amoxicillin.jpeg" alt="">   
+                            <div style="line-height: 5px;">
+                                <p class="fw-bold">Amoxicillin</p>
+                                <p>₱18.75</p>
+                            </div>
+                            <p>
+                                <button class="btn btn-light border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Antibiotics5"     aria-controls="Antibiotics5">more info
+                                    </button>
+                            </p>
+                            <div class="collapse collapse-horizontal  " id="Antibiotics5">
+                                <div class="card card-body border border-dark" style="width:100%;">
+                                    Amoxicillin is a penicillin antibiotic that fights bacteria. Amoxicillin is used to treat many different types of infection caused by bacteria, such as tonsillitis, bronchitis, pneumonia, and infections of the ear, nose, throat, skin, or urinary tract
+
+                                        <p><button class="btn btn-primary" style="margin-left: auto;">buy</button></p>
+                                        <p><button class="btn btn-secondary" style="margin-left: auto;">Add to cart</button></p>
+                                </div>
+                            </div>              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!--Footer-->   
+    <footer id="scrollspyContact">
+        <div class="container ">
+            <div class="title text-center fw-bold text-dark h2 ">
+                <p style="color: #fff;">MediLearn Market</p>
+            </div>
+            <hr class="border border-light">
+
+            <div class=" text-center">
+                <ul class="d-flex"> 
+                    <li>
+                        <i class="fa-brands fa-facebook fa-xl" style="color: #000000;"></i>
+                        <a href="">Facebook</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-twitter fa-xl" style="color: #000000;"></i>
+                        <a href="">Twitter</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-instagram fa-xl" style="color: #000000;"></i>
+                        <a href="">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class=" vh-10 text-center">
+                <p>2023 MediLearn Market | All rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
